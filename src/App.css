@@ -1,0 +1,45 @@
+/* index.css */
+body {
+  background-color: #0a0a0a;
+  color: #e0f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  color: #00e5ff;
+}
+
+.card, .list-group-item {
+  background-color: #1a1a1a;
+  color: #e0f7fa;
+  border: 1px solid #00e5ff33;
+}
+
+.btn-primary {
+  background-color: #00e5ff;
+  color: #000;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #00bcd4;
+}
+
+.btn-danger {
+  background-color: #ff1744;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #f01440;
+}
+
+.btn-outline-danger {
+  color: #ff1744;
+  border-color: #ff1744;
+}
+
+.btn-outline-danger:hover {
+  background-color: #ff1744;
+  color: #fff;
+}
