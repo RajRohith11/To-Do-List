@@ -24,7 +24,7 @@ const App = () => {
     <div className="container py-5">
       <h1 className="text-center mb-4">Ice Blue To-Do</h1>
 
-      {/* Input + Add */}
+      
       <div className="input-group mb-4">
         <input
           type="text"
@@ -38,7 +38,7 @@ const App = () => {
         </button>
       </div>
 
-      {/* Task List */}
+      
       <ul className="list-group mb-3">
         {tasks.map((t, i) => (
           <li
@@ -53,7 +53,7 @@ const App = () => {
         ))}
       </ul>
 
-      {/* Clear Button */}
+     
       {tasks.length > 0 && (
         <div className="text-center">
           <button className="btn btn-outline-danger" onClick={handleClearAll}>
